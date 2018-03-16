@@ -46,7 +46,7 @@ export class AppComponent {
   set step(v) {
     this._step = this.max / 100;
   }
-  get tickInterval(): number | 'auto' {
+  get tickInterval(): number {
     return this._tickInterval;
   }
   set tickInterval(v) {
